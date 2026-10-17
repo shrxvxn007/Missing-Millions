@@ -1,0 +1,23 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.DS_Store
+.env
+.env.*
+!.env.example
+node_modules/
+apps/web/dist/
+*.tsbuildinfo
+apps/web/test-results/
+apps/web/playwright-report/
+data/raw/
+data/*.sqlite*
+data/*.db
+data/*.db-*
+*.log
+
+# Keep the compact explicit demonstration package and source documentation.
+# Raw source clips and local task evidence can be regenerated/exported separately.
